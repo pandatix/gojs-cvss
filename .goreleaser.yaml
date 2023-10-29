@@ -3,8 +3,8 @@ builds:
 
 release:
   extra_files:
-    - gojs-cvss.js
-    - gojs-cvss.js.map
+    - glob: ./gojs-cvss.js
+    - glob: ./gojs-cvss.js.map
 
 changelog:
   sort: asc
