@@ -10,6 +10,9 @@ changelog:
 
 source:
   enabled: true
+  files:
+    - gojs-cvss.js
+    - gojs-cvss.js.map
 
 checksum: {}
 
