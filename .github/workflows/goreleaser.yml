@@ -28,7 +28,7 @@ jobs:
       - name: Install gopherjs
         run: go install github.com/gopherjs/gopherjs@v1.18.0-beta3
       - name: Transpile gojs-cvss
-        run: gopherjs build .
+        run: gopherjs build --minify .
       - name: Install Syft
         run: |
           curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
