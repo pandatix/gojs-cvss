@@ -1,6 +1,6 @@
 module github.com/pandatix/gojs-cvss
 
-go 1.21
+go 1.22
 
 require (
 	github.com/gopherjs/gopherjs v1.17.2
