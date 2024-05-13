@@ -63,4 +63,4 @@ jobs:
           go-version: 1.22.x
       
       - name: go-lint
-        uses: golangci/golangci-lint-action@v5
+        uses: golangci/golangci-lint-action@v6
