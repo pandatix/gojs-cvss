@@ -12,6 +12,10 @@
 	<a href="https://securityscorecards.dev/viewer/?uri=github.com/pandatix/gojs-cvss"><img src="https://img.shields.io/ossf-scorecard/github.com/pandatix/gojs-cvss?label=openssf%20scorecard&style=for-the-badge" alt="OpenSSF Scoreboard"></a>
 </div>
 
+> [!WARNING]
+> This project is not maintained anymore due to its transpiled size, lack of tests and no need for such a library.
+> Please use [js-cvss](https://github.com/pandatix/js-cvss) or an alternative.
+
 It currently supports :
  - [ ] [CVSS 2.0](https://www.first.org/cvss/v2/guide)
  - [ ] [CVSS 3.0](https://www.first.org/cvss/v3.0/specification-document)
